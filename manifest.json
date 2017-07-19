@@ -7,52 +7,52 @@
   "start_url": "/?utm_source=AppTelaInicial",
   "icons": [
     {
-      "src": "/icone-48x48.png",
+      "src": "/webapp/icone-48x48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/icone-72x72.png",
+      "src": "/webapp/icone-72x72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/icone-96x96.png",
+      "src": "/webapp/icone-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/icone-128x128.png",
+      "src": "/webapp/icone-128x128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/icone-144x144.png",
+      "src": "/webapp/icone-144x144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/icone-152x152.png",
+      "src": "/webapp/icone-152x152.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/icone-168x168.png",
+      "src": "/webapp/icone-168x168.png",
       "type": "image/png",
       "sizes": "168x168"
     },
     {
-      "src": "/icone-192x192.png",
+      "src": "/webapp/icone-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icone-256x256.png",
+      "src": "/webapp/icone-256x256.png",
       "type": "image/png",
       "sizes": "256x256"
     },
     {
-      "src": "/icone-512x512.png",
+      "src": "/webapp/icone-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
