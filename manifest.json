@@ -2,7 +2,7 @@
   "name": "Rosiel Torres",
   "short_name": "Rosiel Torres",
   "description": "Aplicativo do Rosiel Torres",
-  "start_url": "/?utm_source=AppTelaInicial",
+  "start_url": "/?webapp/utm_source=AppTelaInicial",
   "theme_color": "#0060FF",
   "background_color": "#6ca3ff",
   "display": "standalone",
