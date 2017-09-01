@@ -10,7 +10,13 @@
 <link rel="stylesheet" type="text/css" href="/webapp/addtohomescreen.css">
 <script src="/webapp/addtohomescreen.js"></script>
 <script>
-addToHomescreen();
+  addToHomescreen({
+    modal: true,
+    privateModeOverride: true,
+    skipFirstVisit: false,
+    displayPace: 0,
+    maxDisplayCount: 0
+});
 </script>
 <link rel="manifest" href="/webapp/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
