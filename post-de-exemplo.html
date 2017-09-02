@@ -398,7 +398,15 @@
 </head>
 <body>
 <script>
-  addToHomescreen();
+  addToHomescreen({
+    appID: 'com.rosieltorres.addtohomescreen',
+    modal: true,
+    skipFirstVisit: false,
+    startDelay: 5,
+    lifespan: 5,
+    displayPace: 0,
+    maxDisplayCount: 0
+});
 </script>
 <header onclick='$(&#39;html,body&#39;).animate({scrollTop:0},&#39;slow&#39;);'>
 <nav class='navbar navbar-inverse navbar-fixed-top'>
