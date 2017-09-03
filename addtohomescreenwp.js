@@ -541,7 +541,6 @@
             if (ath.OS == 'windows') //Workaround for innerHTML += Bug on Windows Phone
             {
                 this.wfx = document.createElement('img');
-                this.wfx.className = 'ath-application-icon';
                 this.dfx = document.createElement('span');
                 this.dfx.innerHTML = message;
                 this.element.appendChild(this.wfx);
