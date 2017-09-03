@@ -542,7 +542,7 @@
             {
                 this.wfx = document.createElement('img');
                 this.wfx.className = 'ath-application-icon';
-                this.wfx.src = "images/icon-152x152.png";
+                this.wfx.src = "/webapp/icone-70x70.png";
                 this.dfx = document.createElement('span');
                 this.dfx.innerHTML = message;
                 this.element.appendChild(this.wfx);
