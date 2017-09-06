@@ -38,120 +38,149 @@
 
     // message in all supported languages
     ath.intl = {
+        cs_cs: {
+            ios: 'Pro přidáni této webové aplikace na úvodní obrazovku: stlačte %icon a pak <strong>Přidat na úvodní obrazovku</strong>.',
+            android: 'Pro přidáni této webové aplikace na úvodní obrazovku otevřete menu nastavení prohlížeče a stlačte <strong>Přidat na úvodní obrazovku</strong>. <small>K menu se dostanete stlačením hardwaroveho tlačítka, když ho vaše zařízení má, nebo stlačením pravé horní menu ikony %icon.</small>',
+            windows: 'Pro přidáni této webové aplikace na úvodní obrazovku otevřete menu nastavení prohlížeče a stlačte <strong>Přidat na úvodní obrazovku</strong>. <small>K menu se dostanete stlačením hardwaroveho tlačítka, když ho vaše zařízení má, nebo stlačením pravé horní menu ikony %icon.</small>'
+        },
+
         de_de: {
-            ios: 'Um diese Web-App zum Home-Bildschirm hinzuzufÃ¼gen, tippen Sie auf %icon und dann <strong>Zum Home-Bildschirm</strong>.',
-            android: 'Um diese Web-App zum Home-Bildschirm hinzuzufÃ¼gen, Ã¶ffnen Sie das MenÃ¼ und tippen dann auf <strong>Zum Startbildschirm hinzufÃ¼gen</strong>. <small>Wenn Ihr GerÃ¤t eine MenÃ¼taste hat, lÃ¤sst sich das BrowsermenÃ¼ Ã¼ber diese Ã¶ffnen. Ansonsten tippen Sie auf <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Um diese Web-App zum Home-Bildschirm hinzuzufügen, tippen Sie auf %icon und dann <strong>Zum Home-Bildschirm</strong>.',
+            android: 'Um diese Web-App zum Home-Bildschirm hinzuzufügen, öffnen Sie das Menü und tippen dann auf <strong>Zum Startbildschirm hinzufügen</strong>. <small>Wenn Ihr Gerät eine Menütaste hat, lässt sich das Browsermenü über diese öffnen. Ansonsten tippen Sie auf %icon.</small>',
+            windows: 'Um diese Web-App zum Home-Bildschirm hinzuzufügen, öffnen Sie das Menü und tippen dann auf <strong>Zum Startbildschirm hinzufügen</strong>. <small>Wenn Ihr Gerät eine Menütaste hat, lässt sich das Browsermenü über diese öffnen. Ansonsten tippen Sie auf %icon.</small>'
         },
 
         da_dk: {
-            ios: 'For at tilfÃ¸je denne web app til hjemmeskÃ¦rmen: Tryk %icon og derefter <strong>FÃ¸j til hjemmeskÃ¦rm</strong>.',
-            android: 'For at tilfÃ¸je denne web app til hjemmeskÃ¦rmen, Ã¥bn browser egenskaber menuen og tryk pÃ¥ <strong>FÃ¸j til hjemmeskÃ¦rm</strong>. <small>Denne menu kan tilgÃ¥s ved at trykke pÃ¥ menu knappen, hvis din enhed har en, eller ved at trykke pÃ¥ det Ã¸verste hÃ¸jre menu ikon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'For at tilføje denne web app til hjemmeskærmen: Tryk %icon og derefter <strong>Føj til hjemmeskærm</strong>.',
+            android: 'For at tilføje denne web app til hjemmeskærmen, åbn browser egenskaber menuen og tryk på <strong>Føj til hjemmeskærm</strong>. <small>Denne menu kan tilgås ved at trykke på menu knappen, hvis din enhed har en, eller ved at trykke på det øverste højre menu ikon %icon.</small>',
+            windows: 'For at tilføje denne web app til hjemmeskærmen, åbn browser egenskaber menuen og tryk på <strong>Føj til hjemmeskærm</strong>. <small>Denne menu kan tilgås ved at trykke på menu knappen, hvis din enhed har en, eller ved at trykke på det øverste højre menu ikon %icon.</small>'
+        },
+
+        el_gr: {
+            ios: 'Για να προσθέσετε την εφαρμογή στην αρχική οθόνη: πατήστε το %icon και μετά <strong>Πρόσθεσε στην αρχική οθόνη</strong>.',
+            android: 'Για να προσθέσετε την εφαρμογή στην αρχική οθόνη, ανοίξτε τις επιλογές του browser σας και πατήστε το <strong>Προσθήκη στην αρχική οθόνη</strong>. <small>Μπορείτε να έχετε πρόσβαση στο μενού, πατώντας το κουμπί του μενού του κινητού σας ή το πάνω δεξιά κουμπί του μενού %icon.</small>',
+            windows: 'Για να προσθέσετε την εφαρμογή στην αρχική οθόνη, ανοίξτε τις επιλογές του browser σας και πατήστε το <strong>Προσθήκη στην αρχική οθόνη</strong>. <small>Μπορείτε να έχετε πρόσβαση στο μενού, πατώντας το κουμπί του μενού του κινητού σας ή το πάνω δεξιά κουμπί του μενού %icon.</small>'
         },
 
         en_us: {
             ios: 'To add this web app to the home screen: tap %icon and then <strong>Add to Home Screen</strong>.',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the start screen open the browser option menu and tap on <strong>pin to start</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
-        },
-
-        da_dk: {
-            ios: 'For at tilfÃ¸je denne web app til din startskÃ¦rm: tryk pÃ¥ %icon og vÃ¦lg <strong>FÃ¸j til hjemmeskÃ¦rm</strong>.',
-            android: 'For at tilfÃ¸je denne web app til din startskÃ¦rm, Ã¥ben browserens vÃ¦rktÃ¸jsmenuog tryk pÃ¥ <strong>TilfÃ¸j til hjemmeskÃ¦rm</strong>. <small>Menuen kan aktiveres ved at trykke pÃ¥ den fysiske menuknap hvis din enhed har en, eller ved at trykke pÃ¥ menuikonet i Ã¸verste hÃ¸jre hjÃ¸rne <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>',
+            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon %icon.</small>'
         },
 
         es_es: {
-            ios: 'Para aÃ±adir esta aplicaciÃ³n web a la pantalla de inicio: pulsa %icon y selecciona <strong>AÃ±adir a pantalla de inicio</strong>.',
-            android: 'Para aÃ±adir esta aplicaciÃ³n web a la pantalla de inicio, abre las opciones y pulsa <strong>AÃ±adir a pantalla inicio</strong>. <small>El menÃº se puede acceder pulsando el botÃ³n tÃ¡ctil en caso de tenerlo, o bien el icono de la parte superior derecha de la pantalla <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Para añadir esta aplicación web a la pantalla de inicio: pulsa %icon y selecciona <strong>Añadir a pantalla de inicio</strong>.',
+            android: 'Para añadir esta aplicación web a la pantalla de inicio, abre las opciones y pulsa <strong>Añadir a pantalla inicio</strong>. <small>El menú se puede acceder pulsando el botón táctil en caso de tenerlo, o bien el icono de la parte superior derecha de la pantalla %icon.</small>',
+            windows: 'Para añadir esta aplicación web a la pantalla de inicio, abre las opciones y pulsa <strong>Añadir a pantalla inicio</strong>. <small>El menú se puede acceder pulsando el botón táctil en caso de tenerlo, o bien el icono de la parte superior derecha de la pantalla %icon.</small>'
         },
 
         fi_fi: {
-            ios: 'LiitÃ¤ tÃ¤mÃ¤ sovellus kotivalikkoon: klikkaa %icon ja tÃ¤mÃ¤n jÃ¤lkeen <strong>LisÃ¤Ã¤ kotivalikkoon</strong>.',
-            android: 'LisÃ¤tÃ¤ksesi tÃ¤mÃ¤n sovelluksen aloitusnÃ¤ytÃ¶lle, avaa selaimen valikko ja klikkaa tÃ¤hti -ikonia tai <strong>LisÃ¤Ã¤ aloitusnÃ¤ytÃ¶lle tekstiÃ¤</strong>. <small>Valikkoon pÃ¤Ã¤see myÃ¶s painamalla menuvalikkoa, jos laitteessasi on sellainen tai koskettamalla oikealla ylÃ¤kulmassa menu ikonia <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Liitä tämä sovellus kotivalikkoon: klikkaa %icon ja tämän jälkeen <strong>Lisää kotivalikkoon</strong>.',
+            android: 'Lisätäksesi tämän sovelluksen aloitusnäytölle, avaa selaimen valikko ja klikkaa tähti -ikonia tai <strong>Lisää aloitusnäytölle tekstiä</strong>. <small>Valikkoon pääsee myös painamalla menuvalikkoa, jos laitteessasi on sellainen tai koskettamalla oikealla yläkulmassa menu ikonia %icon.</small>',
+            windows: 'Lisätäksesi tämän sovelluksen aloitusnäytölle, avaa selaimen valikko ja klikkaa tähti -ikonia tai <strong>Lisää aloitusnäytölle tekstiä</strong>. <small>Valikkoon pääsee myös painamalla menuvalikkoa, jos laitteessasi on sellainen tai koskettamalla oikealla yläkulmassa menu ikonia %icon.</small>'
         },
 
         fr_fr: {
-            ios: 'Pour ajouter cette application web sur l\'Ã©cran d\'accueil : Appuyez %icon et sÃ©lectionnez <strong>Ajouter sur l\'Ã©cran d\'accueil</strong>.',
-            android: 'Pour ajouter cette application web sur l\'Ã©cran d\'accueil : Appuyez sur le bouton "menu", puis sur <strong>Ajouter sur l\'Ã©cran d\'accueil</strong>. <small>Le menu peut-Ãªtre accessible en appyant sur le bouton "menu" du tÃ©lÃ©phone s\'il en possÃ¨de un <i class="fa fa-bars"></i>. Sinon, il se trouve probablement dans la coin supÃ©rieur droit du navigateur %icon.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Pour ajouter cette application web sur l\'écran d\'accueil : Appuyez %icon et sélectionnez <strong>Ajouter sur l\'écran d\'accueil</strong>.',
+            android: 'Pour ajouter cette application web sur l\'écran d\'accueil : Appuyez sur le bouton "menu", puis sur <strong>Ajouter sur l\'écran d\'accueil</strong>. <small>Le menu peut-être accessible en appuyant sur le bouton "menu" du téléphone s\'il en possède un <i class="fa fa-bars"></i>. Sinon, il se trouve probablement dans la coin supérieur droit du navigateur %icon.</small>',
+            windows: 'Pour ajouter cette application web sur l\'écran d\'accueil : Appuyez sur le bouton "menu", puis sur <strong>Ajouter sur l\'écran d\'accueil</strong>. <small>Le menu peut-être accessible en appuyant sur le bouton "menu" du téléphone s\'il en possède un <i class="fa fa-bars"></i>. Sinon, il se trouve probablement dans la coin supérieur droit du navigateur %icon.</small>'
         },
 
         he_il: {
-            ios: '<span dir="rtl">×œ×”×•×¡×¤×ª ×”××¤×œ×™×§×¦×™×” ×œ×ž×¡×š ×”×‘×™×ª: ×œ×œ×—×•×¥ ×¢×œ %icon ×•××– <strong>×”×•×¡×£ ×œ×ž×¡×š ×”×‘×™×ª</strong>.</span>',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: '<span dir="rtl">להוספת האפליקציה למסך הבית: ללחוץ על %icon ואז <strong>הוסף למסך הבית</strong>.</span>',
+            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>',
+            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
+        },
+
+        hu_hu: {
+            ios: 'Ha hozzá szeretné adni ezt az alkalmazást a kezdőképernyőjéhez, érintse meg a következő ikont: %icon , majd a <strong>Hozzáadás a kezdőképernyőhöz</strong> menüpontot.',
+            android: 'Ha hozzá szeretné adni ezt az alkalmazást a kezdőképernyőjéhez, a böngésző menüjében kattintson a <strong>Hozzáadás a kezdőképernyőhöz</strong> menüpontra. <small>A böngésző menüjét a következő ikon megérintésével tudja megnyitni: %icon.</small>',
+            windows: 'Ha hozzá szeretné adni ezt az alkalmazást a kezdőképernyőjéhez, a böngésző menüjében kattintson a <strong>Hozzáadás a kezdőképernyőhöz</strong> menüpontra. <small>A böngésző menüjét a következő ikon megérintésével tudja megnyitni: %icon.</small>'
         },
 
         it_it: {
             ios: 'Per aggiungere questa web app alla schermata iniziale: premi %icon e poi <strong>Aggiungi a Home</strong>.',
-            android: 'Per aggiungere questa web app alla schermata iniziale, apri il menu opzioni del browser e premi su <strong>Aggiungi a schermata Home</strong>. <small>Puoi accedere al menu premendo il pulsante hardware delle opzioni se il tuo device ne ha uno, oppure premendo l\'icona <span class="ath-action-icon">icon</span> in alto a destra.</small>',
-            windows: 'Per aggiungere questa web app alla schermata iniziale, apri il menu opzioni del browser e premi su <strong>Aggiungi a Start</strong>. <small>Puoi accedere al menu premendo il pulsante hardware delle opzioni se il tuo device ne ha uno, oppure premendo l\'icona <span class="ath-action-icon">icon</span> in basso a destra.</small>'
+            android: 'Per aggiungere questa web app alla schermata iniziale, apri il menu opzioni del browser e premi su <strong>Aggiungi alla homescreen</strong>. <small>Puoi accedere al menu premendo il pulsante hardware delle opzioni se la tua device ne ha uno, oppure premendo l\'icona %icon in alto a destra.</small>',
+            windows: 'Per aggiungere questa web app alla schermata iniziale, apri il menu opzioni del browser e premi su <strong>Aggiungi alla homescreen</strong>. <small>Puoi accedere al menu premendo il pulsante hardware delle opzioni se la tua device ne ha uno, oppure premendo l\'icona %icon in alto a destra.</small>'
         },
 
         ja_jp: {
-            ios: 'ã“ã®ã‚¦ã‚§ãƒ—ã‚¢ãƒ—ãƒªã‚’ãƒ›ãƒ¼ãƒ ç”»é¢ã«è¿½åŠ ã™ã‚‹ãŸã‚ã«%iconã‚’æŠ¼ã—ã¦<strong>ãƒ›ãƒ¼ãƒ ç”»é¢ã«è¿½åŠ </strong>ã€‚',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'このウェプアプリをホーム画面に追加するには、%iconをタップして<strong>ホーム画面に追加</strong>してください。',
+            android: 'このウェプアプリをホーム画面に追加するには、ブラウザのオプションメニューから<strong>ホーム画面に追加</strong>をタップしてください。<small>オプションメニューは、一部の機種ではデバイスのメニューボタンから、それ以外では画面右上の%iconからアクセスできます。</small>',
+            windows: 'このウェプアプリをホーム画面に追加するには、ブラウザのオプションメニューから<strong>ホーム画面に追加</strong>をタップしてください。<small>オプションメニューは、一部の機種ではデバイスのメニューボタンから、それ以外では画面右上の%iconからアクセスできます。</small>'
         },
 
         ko_kr: {
-            ios: 'í™ˆ í™”ë©´ì— ë°”ë¡œê°€ê¸° ìƒì„±: %icon ì„ í´ë¦­í•œ í›„ <strong>í™ˆ í™”ë©´ì— ì¶”ê°€</strong>.',
-            android: 'ë¸Œë¼ìš°ì € ì˜µì…˜ ë©”ë‰´ì˜ <string>í™ˆ í™”ë©´ì— ì¶”ê°€</string>ë¥¼ í´ë¦­í•˜ì—¬ í™ˆí™”ë©´ì— ë°”ë¡œê°€ê¸°ë¥¼ ìƒì„±í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. <small>ì˜µì…˜ ë©”ë‰´ëŠ” ìž¥ì¹˜ì˜ ë©”ë‰´ ë²„íŠ¼ì„ ëˆ„ë¥´ê±°ë‚˜ ì˜¤ë¥¸ìª½ ìƒë‹¨ì˜ ë©”ë‰´ ì•„ì´ì½˜ <span class="ath-action-icon">icon</span>ì„ í´ë¦­í•˜ì—¬ ì ‘ê·¼í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: '홈 화면에 바로가기 생성: %icon 을 클릭한 후 <strong>홈 화면에 추가</strong>.',
+            android: '브라우저 옵션 메뉴의 <string>홈 화면에 추가</string>를 클릭하여 홈화면에 바로가기를 생성할 수 있습니다. <small>옵션 메뉴는 장치의 메뉴 버튼을 누르거나 오른쪽 상단의 메뉴 아이콘 %icon을 클릭하여 접근할 수 있습니다.</small>',
+            windows: '브라우저 옵션 메뉴의 <string>홈 화면에 추가</string>를 클릭하여 홈화면에 바로가기를 생성할 수 있습니다. <small>옵션 메뉴는 장치의 메뉴 버튼을 누르거나 오른쪽 상단의 메뉴 아이콘 %icon을 클릭하여 접근할 수 있습니다.</small>'
         },
 
         nb_no: {
-            ios: 'For Ã¥ installere denne appen pÃ¥ hjem-skjermen: trykk pÃ¥ %icon og deretter <strong>Legg til pÃ¥ Hjem-skjerm</strong>.',
-            android: 'For Ã¥ legge til denne webappen pÃ¥ startsiden Ã¥pner en nettlesermenyen og velger <strong>Legg til pÃ¥ startsiden</strong>. <small>Menyen Ã¥pnes ved Ã¥ trykke pÃ¥ den fysiske menyknappen hvis enheten har det, eller ved Ã¥ trykke pÃ¥ menyikonet Ã¸verst til hÃ¸yre <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'For å installere denne appen på hjem-skjermen: trykk på %icon og deretter <strong>Legg til på Hjem-skjerm</strong>.',
+            android: 'For å legge til denne webappen på startsiden åpner en nettlesermenyen og velger <strong>Legg til på startsiden</strong>. <small>Menyen åpnes ved å trykke på den fysiske menyknappen hvis enheten har det, eller ved å trykke på menyikonet øverst til høyre %icon.</small>',
+            windows: 'For å legge til denne webappen på startsiden åpner en nettlesermenyen og velger <strong>Legg til på startsiden</strong>. <small>Menyen åpnes ved å trykke på den fysiske menyknappen hvis enheten har det, eller ved å trykke på menyikonet øverst til høyre %icon.</small>'
         },
 
         pt_br: {
-            ios: 'Para adicionar este app Ã  tela de inÃ­cio: clique %icon e entÃ£o <strong>Tela de inÃ­cio</strong>.',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Para adicionar este app à tela de início: clique %icon e então <strong>Tela de início</strong>.',
+            android: 'Para adicionar este app à tela de início, abra o menu de opções do navegador e selecione <strong>Adicionar à tela inicial</strong>. <small>O menu pode ser acessado pressionando o botão "menu" se o seu dispositivo tiver um, ou selecionando o ícone %icon no canto superior direito.</small>',
+            windows: 'Para adicionar este app à tela de início, abra o menu de opções do navegador e selecione <strong>Adicionar à tela inicial</strong>. <small>O menu pode ser acessado pressionando o botão "menu" se o seu dispositivo tiver um, ou selecionando o ícone %icon no canto inferior direito.</small>'
         },
 
         pt_pt: {
-            ios: 'Para adicionar esta app ao ecrÃ£ principal: clique %icon e depois <strong>EcrÃ£ principal</strong>.',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Para adicionar esta app ao ecrã principal: clique %icon e depois <strong>Ecrã principal</strong>.',
+            android: 'Para adicionar esta app web ecrã principal, abra o menu de opções do navegador e selecione <strong>Adicionar à tela inicial</strong>. <small>O menu pode ser acessado pressionando o botão "menu" se o seu dispositivo tiver um, ou selecionando o ícone %icon no canto superior direito.</small>',
+            windows: 'Para adicionar esta app web ecrã principal, abra o menu de opções do navegador e selecione <strong>Adicionar à tela inicial</strong>. <small>O menu pode ser acessado pressionando o botão "menu" se o seu dispositivo tiver um, ou selecionando o ícone %icon no canto inferior direito.</small>'
         },
 
         nl_nl: {
-            ios: 'Om deze webapp op je telefoon te installeren, klik op %icon en dan <strong>Zet in beginscherm</strong>.',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Om deze webapp aan je startscherm toe te voegen, klik op %icon en dan <strong>Zet in startscherm</strong>.',
+            android: 'Om deze webapp aan je startscherm toe te voegen, open de browserinstellingen en tik op <strong>Toevoegen aan startscherm</strong>. <small>Gebruik de "menu" knop als je telefoon die heeft, anders het menu-icoon rechtsbovenin %icon.</small>',
+            windows: 'Om deze webapp aan je startscherm toe te voegen, open de browserinstellingen en tik op <strong>Toevoegen aan startscherm</strong>. <small>Gebruik de "menu" knop als je telefoon die heeft, anders het menu-icoon rechtsbovenin %icon.</small>'
         },
 
         ru_ru: {
-            ios: 'Ð§Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÑ‚Ð¾Ñ‚ ÑÐ°Ð¹Ñ‚ Ð½Ð° ÑÐ²Ð¾Ð¹ Ð´Ð¾Ð¼Ð°ÑˆÐ½Ð¸Ð¹ ÑÐºÑ€Ð°Ð½, Ð½Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð½Ð° Ð¸ÐºÐ¾Ð½ÐºÑƒ %icon Ð¸ Ð·Ð°Ñ‚ÐµÐ¼ <strong>ÐÐ° ÑÐºÑ€Ð°Ð½ "Ð”Ð¾Ð¼Ð¾Ð¹"</strong>.',
-            android: 'Ð§Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÐ°Ð¹Ñ‚ Ð½Ð° ÑÐ²Ð¾Ð¹ Ð´Ð¾Ð¼Ð°ÑˆÐ½Ð¸Ð¹ ÑÐºÑ€Ð°Ð½, Ð¾Ñ‚ÐºÑ€Ð¾Ð¹Ñ‚Ðµ Ð¼ÐµÐ½ÑŽ Ð±Ñ€Ð°ÑƒÐ·ÐµÑ€Ð° Ð¸ Ð½Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð½Ð° <strong>Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð½Ð° Ð³Ð»Ð°Ð²Ð½Ñ‹Ð¹ ÑÐºÑ€Ð°Ð½</strong>. <small>ÐœÐµÐ½ÑŽ Ð¼Ð¾Ð¶Ð½Ð¾ Ð²Ñ‹Ð·Ð²Ð°Ñ‚ÑŒ, Ð½Ð°Ð¶Ð°Ð² Ð½Ð° ÐºÐ½Ð¾Ð¿ÐºÑƒ Ð¼ÐµÐ½ÑŽ Ð²Ð°ÑˆÐµÐ³Ð¾ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½Ð°, ÐµÑÐ»Ð¸ Ð¾Ð½Ð° ÐµÑÑ‚ÑŒ. Ð˜Ð»Ð¸ Ð½Ð°Ð¹Ð´Ð¸Ñ‚Ðµ Ð¸ÐºÐ¾Ð½ÐºÑƒ ÑÐ²ÐµÑ€Ñ…Ñƒ ÑÐ¿Ñ€Ð°Ð²Ð° <span class="ath-action-icon">Ð¸ÐºÐ¾Ð½ÐºÐ°</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'Чтобы добавить этот сайт на свой домашний экран, нажмите на иконку %icon и затем <strong>На экран "Домой"</strong>.',
+            android: 'Чтобы добавить сайт на свой домашний экран, откройте меню браузера и нажмите на <strong>Добавить на главный экран</strong>. <small>Меню можно вызвать, нажав на кнопку меню вашего телефона, если она есть. Или найдите иконку сверху справа %icon[иконка].</small>',
+            windows: 'Чтобы добавить сайт на свой домашний экран, откройте меню браузера и нажмите на <strong>Добавить на главный экран</strong>. <small>Меню можно вызвать, нажав на кнопку меню вашего телефона, если она есть. Или найдите иконку сверху справа %icon[иконка].</small>'
+        },
+
+        sk_sk: {
+            ios: 'Pre pridanie tejto webovej aplikácie na úvodnú obrazovku: stlačte %icon a potom <strong>Pridať na úvodnú obrazovku</strong>.',
+            android: 'Pre pridanie tejto webovej aplikácie na úvodnú obrazovku otvorte menu nastavenia prehliadača a stlačte <strong>Pridať na úvodnú obrazovku</strong>. <small>K menu sa dostanete stlačením hardwaroveho tlačidla, ak ho vaše zariadenie má, alebo stlačením pravej hornej menu ikony %icon.</small>',
+            windows: 'Pre pridanie tejto webovej aplikácie na úvodnú obrazovku otvorte menu nastavenia prehliadača a stlačte <strong>Pridať na úvodnú obrazovku</strong>. <small>K menu sa dostanete stlačením hardwaroveho tlačidla, ak ho vaše zariadenie má, alebo stlačením pravej hornej menu ikony %icon.</small>'
         },
 
         sv_se: {
-            ios: 'FÃ¶r att lÃ¤gga till denna webbapplikation pÃ¥ hemskÃ¤rmen: tryck pÃ¥ %icon och dÃ¤refter <strong>LÃ¤gg till pÃ¥ hemskÃ¤rmen</strong>.',
-            android: 'FÃ¶r att lÃ¤gga till den hÃ¤r webbappen pÃ¥ hemskÃ¤rmen Ã¶ppnar du webblÃ¤sarens alternativ-meny och vÃ¤ljer <strong>LÃ¤gg till pÃ¥ startskÃ¤rmen</strong>. <small>Man hittar menyn genom att trycka pÃ¥ hÃ¥rdvaruknappen om din enhet har en sÃ¥dan, eller genom att trycka pÃ¥ menyikonen hÃ¶gst upp till hÃ¶ger <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: 'För att lägga till denna webbapplikation på hemskärmen: tryck på %icon och därefter <strong>Lägg till på hemskärmen</strong>.',
+            android: 'För att lägga till den här webbappen på hemskärmen öppnar du webbläsarens alternativ-meny och väljer <strong>Lägg till på startskärmen</strong>. <small>Man hittar menyn genom att trycka på hårdvaruknappen om din enhet har en sådan, eller genom att trycka på menyikonen högst upp till höger %icon.</small>',
+            windows: 'För att lägga till den här webbappen på hemskärmen öppnar du webbläsarens alternativ-meny och väljer <strong>Lägg till på startskärmen</strong>. <small>Man hittar menyn genom att trycka på hårdvaruknappen om din enhet har en sådan, eller genom att trycka på menyikonen högst upp till höger %icon.</small>'
+        },
+
+        tr_tr: {
+            ios: 'Uygulamayı ana ekrana eklemek için, %icon ve ardından <strong>ana ekrana ekle</strong> butonunu tıklayın.',
+            android: 'Uygulamayı ana ekrana eklemek için, menüye girin ve <strong>ana ekrana ekle</strong> butonunu tıklayın. <small>Cihazınız menü tuşuna sahip ise menüye girmek için menü tuşunu tıklayın. Aksi takdirde %icon butonunu tıklayın.</small>',
+            windows: 'Uygulamayı ana ekrana eklemek için, menüye girin ve <strong>ana ekrana ekle</strong> butonunu tıklayın. <small>Cihazınız menü tuşuna sahip ise menüye girmek için menü tuşunu tıklayın. Aksi takdirde %icon butonunu tıklayın.</small>'
+        },
+
+        uk_ua: {
+            ios: 'Щоб додати цей сайт на початковий екран, натисніть %icon, а потім <strong>На початковий екран</strong>.',
+            android: 'Щоб додати цей сайт на домашній екран, відкрийте меню браузера та виберіть <strong>Додати на головний екран</strong>. <small>Це можливо зробити, натиснувши кнопку меню на вашому смартфоні, якщо така є. Або ж на іконці зверху справа %icon.</small>',
+            windows: 'Щоб додати цей сайт на домашній екран, відкрийте меню браузера та виберіть <strong>Додати на головний екран</strong>. <small>Це можливо зробити, натиснувши кнопку меню на вашому смартфоні, якщо така є. Або ж на іконці зверху справа %icon.</small>'
         },
 
         zh_cn: {
-            ios: 'å¦‚è¦æŠŠåº”ç”¨ç¨‹å¼åŠ è‡³ä¸»å±å¹•,è¯·ç‚¹å‡»%icon, ç„¶åŽ<strong>åŠ è‡³ä¸»å±å¹•</strong>',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
+            ios: '如要把应用程序加至主屏幕,请点击%icon, 然后<strong>添加到主屏幕</strong>',
+            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>',
+            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
         },
 
         zh_tw: {
-            ios: 'å¦‚è¦æŠŠæ‡‰ç”¨ç¨‹å¼åŠ è‡³ä¸»å±å¹•, è«‹é»žæ“Š%icon, ç„¶å¾Œ<strong>åŠ è‡³ä¸»å±å¹•</strong>.',
-            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
-            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the bottom right menu icon <span class="ath-action-icon">icon</span>.</small>'
-        },
-
+            ios: '如要把應用程式加至主屏幕, 請點擊%icon, 然後<strong>加至主屏幕</strong>.',
+            android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>',
+            windows: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
+        }
     };
 
     // Add 2 characters language support (Android mostly)
