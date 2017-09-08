@@ -400,12 +400,17 @@
 <script>
   addToHomescreen({
     appID: 'com.rosieltorres.addtohomescreen',
+    fontSize: 15,
     modal: true,
+    mandatory: false,
     skipFirstVisit: false,
     startDelay: 5,
     lifespan: 60,
     displayPace: 0,
-    maxDisplayCount: 0
+    maxDisplayCount: 0,
+    icon: true,
+    message: '',
+    privateModeOverride: false
 });
 </script>
 <header onclick='$(&#39;html,body&#39;).animate({scrollTop:0},&#39;slow&#39;);'>
