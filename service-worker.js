@@ -11,6 +11,7 @@ this.addEventListener('install', event => {
     caches.open(currentCache.offline).then(function(cache) {
       return cache.addAll([
           '/webapp/offline.svg',
+          '/webapp/icone-96x96.png',
           offlineUrl
       ]);
     })
